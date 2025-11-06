@@ -107,7 +107,7 @@ function createBlade(style: number) {
   });
   box.position = new Vector3(0, 0.5, 0);
   box.scaling = new Vector3(1, 1, 1);
-  box.material = boxMat;
+  box.material = bladeMat;
   return box;
 }
 
@@ -128,7 +128,7 @@ function createRoof(style: number) {
 }
 
 function createHouse(scene: Scene, style: number) {
-  const box = createBox(style);
+  const box = createBlade(style);
   const roof = createRoof(style);
   const house = Mesh.MergeMeshes(
     [box, roof],
