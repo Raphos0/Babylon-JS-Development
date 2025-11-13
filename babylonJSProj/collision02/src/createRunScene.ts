@@ -8,6 +8,8 @@ import {
 } from "./keyActionManager";
 import { characterActionManager } from "./characterActionManager";
 
+
+
 import "@babylonjs/core/Materials/Textures/Loaders/envTextureLoader";
 import "@babylonjs/core/Helpers/sceneHelpers";
 export default function createRunScene(runScene: SceneData) {

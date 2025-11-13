@@ -10,7 +10,9 @@
     "collision01build": "vite build collision01",
     "collision01preview": "vite preview collision01 --host",
     "collision02build": "vite build collision02",
-    "collision02preview": "vite preview collision02 --host"
+    "collision02preview": "vite preview collision02 --host",
+    "collision03build": "vite build collision03",
+    "collision03preview": "vite preview collision03 --host"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
